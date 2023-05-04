@@ -1,5 +1,12 @@
 # Guacamole with docker-compose
+
 This is a small documentation how to run a fully working **Apache Guacamole (incubating)** instance with docker (docker-compose). The goal of this project is to make it easy to test Guacamole.
+
+**Credits**
+
+This project was forked from https://github.com/boschkundendienst/guacamole-docker-compose .
+
+Minor Powershell scripts have been added do run Guacamole on Windows through Docker.
 
 ## About Guacamole
 Apache Guacamole (incubating) is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. It is called clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
